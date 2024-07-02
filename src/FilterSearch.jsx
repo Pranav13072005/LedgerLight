@@ -13,9 +13,10 @@ const FilterSearch = ({ setFilter }) => {
   return (
     <div className="filter-search">
       <h2>Filter & Search</h2>
+      <p className='desc'>"Effortlessly navigate your transactions with our intuitive filter and search tools. Quickly find and categorize expenses, making financial management a breeze."</p>
       <div className="form-group">
         <label>Date Range</label>
-        <input type="date" value={dateRange[0]} onChange={(e) => setDateRange([e.target.value, dateRange[1]])} />
+        <input type="date" className='data2' id='date12' value={dateRange[0]} onChange={(e) => setDateRange([e.target.value, dateRange[1]])} />
         <input type="date" value={dateRange[1]} onChange={(e) => setDateRange([dateRange[0], e.target.value])} />
       </div>
       <div className="form-group">
