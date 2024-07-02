@@ -1,0 +1,11 @@
+h2 {
+    color: #ffffff;
+  }
+  
+  button {
+    transition: transform .5s ease, -webkit-transform .5s ease;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }

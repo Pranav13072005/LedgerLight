@@ -1,0 +1,78 @@
+.add-transaction {
+  background: #1e1e1e;
+  padding: 20px;
+  padding-top: 0;
+  /* border-radius: 12px; */
+  /* margin-bottom: 20px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.add-transaction h2 {
+  margin-bottom: 20px;
+  padding-top: 40px;
+  font-size: 4rem;
+  color: rgb(17, 115, 148);
+  text-align: center;
+  
+}
+.desc{
+  color: grey;
+  padding: 2vh 17vw;
+  padding-top: 4vh;
+  font-style: italic;
+  font-size: larger;
+  text-align: center;
+}
+label{
+  font-size: 1.3rem;
+}
+button{
+  position: relative;
+  left: 42vw;
+  margin-top: 2vh;
+}
+
+.add-transaction .form-group {
+  margin-bottom: 15px;
+}
+
+.add-transaction .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #b3b3b3;
+}
+
+.add-transaction .form-group input,
+.add-transaction .form-group select {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background: #272727;
+  color: #ffffff;
+}
+
+.add-transaction button {
+  padding: 10px 20px;
+  background: #0959af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: larger;
+}
+.hero{
+  display: flex;
+}
+form{
+  width: 55%;
+  margin-left: 5vw;
+}
+.add-transaction button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+.section-right{
+  margin-left: 10vw;
+}
